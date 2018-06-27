@@ -28,13 +28,13 @@ rel="noreferrer noopener"
 target="_blank"
 >
               {' NGO UPAY '}
-            </a>
-            (Underprivileged Advancement by Youth), was established in May 2010
-            by a group of young engineers from IITs and NITs.
-          </section>
+</a>
+(Underprivileged Advancement by Youth), was established in May 2010
+by a group of young engineers from IITs and NITs.
+</section>
 
-          <h2>Items</h2>
-          <ul>
+<h2>Items</h2>
+<ul>
             {this.state.items.map(({ id, name }) => (
               <Item key={id} name={name} />
             ))}
