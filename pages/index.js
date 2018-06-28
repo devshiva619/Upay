@@ -17,24 +17,24 @@ export default class IndexPage extends React.PureComponent {
     return (
       <React.Fragment>
         <main>
-          <img width="100%" src="/images/logo.png" alt="Logo of Upay NGO" />
+<img width="100%" src="/images/logo.png" alt="Logo of Upay NGO" />
 
-          <section>
-            The foundation of development for every society is the education of
-            its youth. Keeping this in mind, an
-            <a
-              href="https://www.upay.org.in/"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
+<section>
+The foundation of development for every society is the education of
+its youth. Keeping this in mind, an
+<a
+href="https://www.upay.org.in/"
+rel="noreferrer noopener"
+target="_blank"
+>
               {' NGO UPAY '}
-            </a>
-            (Underprivileged Advancement by Youth), was established in May 2010
-            by a group of young engineers from IITs and NITs.
-          </section>
+</a>
+(Underprivileged Advancement by Youth), was established in May 2010
+by a group of young engineers from IITs and NITs.
+</section>
 
-          <h2>Items</h2>
-          <ul>
+<h2>Items</h2>
+<ul>
             {this.state.items.map(({ id, name }) => (
               <Item key={id} name={name} />
             ))}
